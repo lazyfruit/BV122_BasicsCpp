@@ -24,6 +24,7 @@
     <ProjectGuid>{75a5d8dd-122c-4a5e-bca0-03558cea9f04}</ProjectGuid>
     <RootNamespace>ProjectDoWhile</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>Project2DoWhile</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

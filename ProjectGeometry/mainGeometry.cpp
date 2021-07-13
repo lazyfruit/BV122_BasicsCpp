@@ -9,7 +9,7 @@ using namespace std;
 //#define RHOMBUS1
 //#define RHOMBUS2
 //#define PLUS_MINUS
-#define PLUS_MINUS2
+//#define PLUS_MINUS2
 //#define PLUS_MINUS3
 //#define CHES_BOARD
 //#define CHES_BOARD_TERNARY
