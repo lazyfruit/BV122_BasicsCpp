@@ -1,4 +1,4 @@
-#include<iostream>
+п»ї#include<iostream>
 #include<conio.h>
 using namespace std;
 
@@ -9,7 +9,7 @@ void main()
 {
 	setlocale(LC_ALL, "Russian");
 
-	char key; //Будет хранить код клавиши
+	char key; //Р‘СѓРґРµС‚ С…СЂР°РЅРёС‚СЊ РєРѕРґ РєР»Р°РІРёС€Рё
 	do
 	{
 		key = _getch();

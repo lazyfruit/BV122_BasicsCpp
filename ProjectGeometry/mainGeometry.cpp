@@ -1,4 +1,4 @@
-#include<iostream>
+п»ї#include<iostream>
 using namespace std;
 
 //#define SQUARE
@@ -20,8 +20,8 @@ using namespace std;
 #define DOWN_RIGHT_ANGLE	(char)217
 #define VERT_LINE			(char)179
 #define HORIZ_LINE			(char)196 << (char)196
-#define WHITE_BOX			"\xDB\xDB"							//(char)219 << (char)219 //(для CHES_BOARD)
-#define BLACK_BOX			"\x20\x20"//"\x20\x20" или "  ")	//(char)32 << (char)32 //(для CHES_BOARD)
+#define WHITE_BOX			"\xDB\xDB"							//(char)219 << (char)219 //(РґР»СЏ CHES_BOARD)
+#define BLACK_BOX			"\x20\x20"//"\x20\x20" РёР»Рё "  ")	//(char)32 << (char)32 //(РґР»СЏ CHES_BOARD)
 
 void main()
 {
@@ -29,7 +29,7 @@ void main()
 
 	int n;
 
-	cout << "Введите размер фигуры: "; cin >> n;
+	cout << "Р’РІРµРґРёС‚Рµ СЂР°Р·РјРµСЂ С„РёРіСѓСЂС‹: "; cin >> n;
 
 #ifdef SQUARE
 
@@ -202,7 +202,7 @@ void main()
 	}
 #endif // PLUS_MINUS3
 
-	//setlocale(LC_ALL, "C"); //Возвращает кодировку по умолчанию
+	//setlocale(LC_ALL, "C"); //Р’РѕР·РІСЂР°С‰Р°РµС‚ РєРѕРґРёСЂРѕРІРєСѓ РїРѕ СѓРјРѕР»С‡Р°РЅРёСЋ
 
 #ifdef CHES_BOARD
 	n++;

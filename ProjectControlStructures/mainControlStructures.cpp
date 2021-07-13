@@ -1,4 +1,4 @@
-#include <iostream>
+ï»¿#include <iostream>
 using namespace std;
 
 //#define WEATHER
@@ -9,28 +9,28 @@ void main()
 	setlocale(LC_ALL, "Russian");
 #ifdef WEATHER
 	int temperature;
-	cout << "Ââåäèòå òåìïåðàòóðó âîçäóõà: "; cin >> temperature;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‚ÐµÐ¼Ð¿ÐµÑ€Ð°Ñ‚ÑƒÑ€Ñƒ Ð²Ð¾Ð·Ð´ÑƒÑ…Ð°: "; cin >> temperature;
 	if (temperature > 0)
 	{
-		cout << "Íà óëèöå òåïëî!" << endl;
+		cout << "ÐÐ° ÑƒÐ»Ð¸Ñ†Ðµ Ñ‚ÐµÐ¿Ð»Ð¾!" << endl;
 	}
 	else
 	{
-		cout << "Íà óëèöå õîëîäíî!" << endl;
+		cout << "ÐÐ° ÑƒÐ»Ð¸Ñ†Ðµ Ñ…Ð¾Ð»Ð¾Ð´Ð½Ð¾!" << endl;
 	}
 #endif // WEATHER
 
 #ifdef SHOT
 	int n;
-	cout << "Ââåäèòå ÷èñëî: "; cin >> n;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ‡Ð¸ÑÐ»Ð¾: "; cin >> n;
 
 	if (0 <= n && n <= 10)
 	{
-		cout << "Öåëü ïîðàæåíà!" << endl;
+		cout << "Ð¦ÐµÐ»ÑŒ Ð¿Ð¾Ñ€Ð°Ð¶ÐµÐ½Ð°!" << endl;
 	}
 	else
 	{
-		cout << "Âû ïðîìàõíóëèñü!" << endl;
+		cout << "Ð’Ñ‹ Ð¿Ñ€Ð¾Ð¼Ð°Ñ…Ð½ÑƒÐ»Ð¸ÑÑŒ!" << endl;
 	}
 #endif // SHOT
 

@@ -1,8 +1,8 @@
-#include<iostream>
+п»ї#include<iostream>
 using namespace std;
 
 //#define ARITHMETICAL_OPERATORS
-//#define ASSIGNMENT_OPERATOR //Оператор присваивания
+//#define ASSIGNMENT_OPERATOR //РћРїРµСЂР°С‚РѕСЂ РїСЂРёСЃРІР°РёРІР°РЅРёСЏ
 #define INCREMENT_DECREMENT
 
 void name()
@@ -12,8 +12,8 @@ void name()
 #ifdef ARITHMETICAL_OPERATORS
 	int a = 17;
 	int b = 5;
-	cout << "Результат от деления: " << b / a << endl;
-	cout << "Остаток от деления: " << b % a << endl;
+	cout << "Р РµР·СѓР»СЊС‚Р°С‚ РѕС‚ РґРµР»РµРЅРёСЏ: " << b / a << endl;
+	cout << "РћСЃС‚Р°С‚РѕРє РѕС‚ РґРµР»РµРЅРёСЏ: " << b % a << endl;
 #endif // ARITHMETICAL_OPERATORS
 
 #ifdef ASSIGNMENT_OPERATOR
