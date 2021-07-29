@@ -24,7 +24,7 @@
     <ProjectGuid>{6908177b-8b38-42b0-9efa-f7e4dfb3c33f}</ProjectGuid>
     <RootNamespace>Project1</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>ProjectNumerix</ProjectName>
+    <ProjectName>Project9Numerix</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
