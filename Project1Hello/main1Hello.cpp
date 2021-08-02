@@ -6,7 +6,8 @@ using namespace std;
 
 void main()
 {
-	setlocale(LC_ALL, "Russian");
+	setlocale(LC_ALL, "Russian");//Устанавливаем пусскую кодировку.\
+								 Возможно писать Rus или оставлять авычки пустыми.
 	cout << "\n\tHello\"World\"\n";
 	cout << "\nПриветМир\n";
 	cout << "\nС:\\Windows\\System32\\drivers\\\n";
