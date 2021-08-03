@@ -1,0 +1,67 @@
+//#include"Statistics.h" - подключать не имеет смысла, потому что нет кода который был бы неопределен!
+
+int  Sum(int arr[], const int n)
+{
+	int Sum = 0;
+	for (int i = 0; i < n; i++)
+	{
+		Sum += arr[i];
+	}
+	return Sum;
+}
+double Sum(double arr[], const int n)
+{
+	double Sum = 0;
+	for (int i = 0; i < n; i++)
+	{
+		Sum += arr[i];
+	}
+	return Sum;
+}
+
+double Avg(int arr[], const int n)
+{
+	return (double)Sum(arr, n) / n;
+}
+double Avg(double arr[], const int n)
+{
+	return (double)Sum(arr, n) / n;
+}
+
+int  minValueIn(int arr[], const int n)
+{
+	int min = arr[0];
+	for (int i = 0; i < n; i++)
+	{
+		if (arr[i] < min)min = arr[i];
+	}
+	return min;
+}
+double minValueIn(double arr[], const int n)
+{
+	double min = arr[0];
+	for (int i = 0; i < n; i++)
+	{
+		if (arr[i] < min)min = arr[i];
+	}
+	return min;
+}
+
+int  maxValueIn(int arr[], const int n)
+{
+	int max = arr[0];
+	for (int i = 0; i < n; i++)
+	{
+		if (arr[i] > max)max = arr[i];
+	}
+	return max;
+}
+double maxValueIn(double arr[], const int n)
+{
+	double max = arr[0];
+	for (int i = 0; i < n; i++)
+	{
+		if (arr[i] > max)max = arr[i];
+	}
+	return max;
+}
