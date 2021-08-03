@@ -20,8 +20,8 @@ void main()
 	cout << "  signed llong:\t\t" << LLONG_MIN << "\t" << LLONG_MAX << endl << endl;
 
 	cout << sizeof(float) << endl;
-	cout << "  signed float:\t\t" << FLT_MIN << "\t" << FLT_MAX << endl << endl;
+	cout << "signed float:\t" << FLT_MIN << "\t" << FLT_MAX << endl << endl;
 
 	cout << sizeof(double) << endl;
-	cout << "  signed double:\t" << DBL_MIN << "\t" << DBL_MAX << endl << endl;
+	cout << "signed double:\t" << DBL_MIN << "\t" << DBL_MAX << endl << endl;
 }

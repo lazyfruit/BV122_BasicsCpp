@@ -2,8 +2,15 @@
 using namespace std;
 
 void FillRand(int arr[], const int n);
+void FillRand(double arr[], const int n);
+
 void Print(int arr[], const int n);
+void Print(double arr[], const int n);
+
 void Sort(int arr[], const int n);
+void Sort(double arr[], const int n);
+
+
 
 //С использованиeм функций:
 
