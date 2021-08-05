@@ -21,10 +21,10 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{062d7487-9db3-4d4a-bffb-1fca0911312c}</ProjectGuid>
-    <RootNamespace>ProjectFunctionArrays2</RootNamespace>
+    <ProjectGuid>{836e029a-42e8-46cb-975a-1887a35d4c75}</ProjectGuid>
+    <RootNamespace>ProjectFunctionArrays3z1</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>ProjectzFunctionArrays2</ProjectName>
+    <ProjectName>ProjectzFunctionArrays3z1</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -140,7 +140,28 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="mainFunctionArrays2.cpp" />
+    <ClCompile Include="Avg.cpp" />
+    <ClCompile Include="FillRand.cpp" />
+    <ClCompile Include="mainFunctionArrays3z1.cpp" />
+    <ClCompile Include="maxValueIn.cpp" />
+    <ClCompile Include="minValueIn.cpp" />
+    <ClCompile Include="Print.cpp" />
+    <ClCompile Include="ShiftRight.cpp" />
+    <ClCompile Include="ShiftLeft.cpp" />
+    <ClCompile Include="Sort.cpp" />
+    <ClCompile Include="Sum.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Avg.h" />
+    <ClInclude Include="FillRand.h" />
+    <ClInclude Include="maxValueIn.h" />
+    <ClInclude Include="minValueIn.h" />
+    <ClInclude Include="Print.h" />
+    <ClInclude Include="ShiftLeft.h" />
+    <ClInclude Include="ShiftRight.h" />
+    <ClInclude Include="Sort.h" />
+    <ClInclude Include="StdAfx.h" />
+    <ClInclude Include="Sum.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
