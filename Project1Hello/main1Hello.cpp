@@ -8,13 +8,14 @@ void main()
 {
 	setlocale(LC_ALL, "Russian");//Устанавливаем пусскую кодировку.\
 								 Возможно писать Rus или оставлять авычки пустыми.
-	cout << "\n\tHello\"World\"\n";
+	/*cout << "\n\tHello\"World\"\n";
 	cout << "\nПриветМир\n";
 	cout << "\nС:\\Windows\\System32\\drivers\\\n";
 
 	int i = 3;
 	i += i++ + 1 + (++i *= 2);
-	cout << i << endl;
+	cout << i << endl;*/
+
 }
 
 // ctrl + f7 - Компиляция
