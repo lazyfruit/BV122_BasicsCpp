@@ -3,15 +3,15 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ProjectGeometry", "ProjectGeometry\ProjectGeometry.vcxproj", "{EB1C469B-C067-45AA-A369-E0C3E2ACDD7C}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Project7Geometry", "ProjectGeometry\ProjectGeometry.vcxproj", "{EB1C469B-C067-45AA-A369-E0C3E2ACDD7C}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ProjectArrays", "ProjectArrays\ProjectArrays.vcxproj", "{C7453EFB-DD7B-43FF-A8EB-9290F8980B79}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Project2DoWhile", "ProjectDoWhile\ProjectDoWhile.vcxproj", "{75A5D8DD-122C-4A5E-BCA0-03558CEA9F04}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Project5DoWhile", "ProjectDoWhile\ProjectDoWhile.vcxproj", "{75A5D8DD-122C-4A5E-BCA0-03558CEA9F04}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ProjectFor", "ProjectFor\ProjectFor.vcxproj", "{5E2DC3FC-40C1-45BC-94F9-BBB3A4526F0D}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Project6For", "ProjectFor\ProjectFor.vcxproj", "{5E2DC3FC-40C1-45BC-94F9-BBB3A4526F0D}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ProjectControlStructures", "ProjectControlStructures\ProjectControlStructures.vcxproj", "{402FBE0C-3FB5-4093-8717-887439C33C85}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Project4ControlStructures", "ProjectControlStructures\ProjectControlStructures.vcxproj", "{402FBE0C-3FB5-4093-8717-887439C33C85}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ProjectRandom", "ProjectRandom\ProjectRandom.vcxproj", "{B0B3A162-827A-44D2-AFF7-EA86D336C677}"
 EndProject
