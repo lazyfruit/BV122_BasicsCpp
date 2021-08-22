@@ -1,4 +1,4 @@
-#include<iostream>
+п»ї#include<iostream>
 using namespace std;
 
 void FillRand(int arr[], const int n);
@@ -12,7 +12,7 @@ void Sort(double arr[], const int n);
 
 
 
-//С использованиeм функций:
+//РЎ РёСЃРїРѕР»СЊР·РѕРІР°РЅРёeРј С„СѓРЅРєС†РёР№:
 
 void main()
 {
@@ -38,7 +38,7 @@ void main()
 
 void FillRand(int arr[], const int n)
 {
-	//Заполнение массива случайными числами:
+	//Р—Р°РїРѕР»РЅРµРЅРёРµ РјР°СЃСЃРёРІР° СЃР»СѓС‡Р°Р№РЅС‹РјРё С‡РёСЃР»Р°РјРё:
 	for (int i = 0; i < n; i++)
 	{
 		arr[i] = rand() % 100;
@@ -47,7 +47,7 @@ void FillRand(int arr[], const int n)
 
 void Print(int arr[], const int n)
 {
-	//Вывод массива на экран:
+	//Р’С‹РІРѕРґ РјР°СЃСЃРёРІР° РЅР° СЌРєСЂР°РЅ:
 	for (int i = 0; i < n; i++)
 	{
 		cout << arr[i] << "\t";
@@ -57,7 +57,7 @@ void Print(int arr[], const int n)
 
 void Sort(int arr[], const int n)
 {
-	//Сортировка:
+	//РЎРѕСЂС‚РёСЂРѕРІРєР°:
 	for (int i = 0; i < n; i++)
 	{
 		for (int j = i + 1; j < n; j++)
