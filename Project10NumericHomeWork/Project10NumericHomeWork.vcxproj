@@ -24,7 +24,7 @@
     <ProjectGuid>{92e0d64e-767a-4519-b5c8-e7d92aa1824e}</ProjectGuid>
     <RootNamespace>Project10NumericHomeWork</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>Project9z1NumericHomeWork</ProjectName>
+    <ProjectName>Project5z2NumericHomeWork</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

@@ -24,7 +24,7 @@
     <ProjectGuid>{c3526b76-e544-4d26-a93c-a5f807948867}</ProjectGuid>
     <RootNamespace>ProjectFunctionArrays</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>ProjectzFunctionArrays1</ProjectName>
+    <ProjectName>Projectz6z1FunctionArrays1</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">

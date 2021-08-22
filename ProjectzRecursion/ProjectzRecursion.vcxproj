@@ -24,6 +24,7 @@
     <ProjectGuid>{34654c98-5138-495f-a047-5c1785b5343e}</ProjectGuid>
     <RootNamespace>ProjectzRecursion</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
+    <ProjectName>Projectz7Recursion</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
