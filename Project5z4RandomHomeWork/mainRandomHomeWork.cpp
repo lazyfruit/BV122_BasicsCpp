@@ -1,4 +1,4 @@
-#include<iostream>
+п»ї#include<iostream>
 #include<stdlib.h>
 using namespace std;
 
@@ -13,29 +13,29 @@ void main()
 	setlocale(LC_ALL, "Rus");
 
 #ifdef HOME_WORK_18
-	//Объявление массива
+	//РћР±СЉСЏРІР»РµРЅРёРµ РјР°СЃСЃРёРІР°
 	const int ARRAY_SIZE = 10;
 	int array[ARRAY_SIZE];
 
-	//Выбор минимального и максимального значения для заполнения массива
+	//Р’С‹Р±РѕСЂ РјРёРЅРёРјР°Р»СЊРЅРѕРіРѕ Рё РјР°РєСЃРёРјР°Р»СЊРЅРѕРіРѕ Р·РЅР°С‡РµРЅРёСЏ РґР»СЏ Р·Р°РїРѕР»РЅРµРЅРёСЏ РјР°СЃСЃРёРІР°
 	int minArrayNumber;
 	int maxArrayNumber;
 	do
 	{
-		cout << "\n" << "Введите минимально возможное число: " << TAB; cin >> minArrayNumber;
-		cout << "Введите максимально возможное число: " << TAB; cin >> maxArrayNumber;
-		if (minArrayNumber >= maxArrayNumber) cout << "Будте внимательны, повторите ввод!" << endl;
+		cout << "\n" << "Р’РІРµРґРёС‚Рµ РјРёРЅРёРјР°Р»СЊРЅРѕ РІРѕР·РјРѕР¶РЅРѕРµ С‡РёСЃР»Рѕ: " << TAB; cin >> minArrayNumber;
+		cout << "Р’РІРµРґРёС‚Рµ РјР°РєСЃРёРјР°Р»СЊРЅРѕ РІРѕР·РјРѕР¶РЅРѕРµ С‡РёСЃР»Рѕ: " << TAB; cin >> maxArrayNumber;
+		if (minArrayNumber >= maxArrayNumber) cout << "Р‘СѓРґС‚Рµ РІРЅРёРјР°С‚РµР»СЊРЅС‹, РїРѕРІС‚РѕСЂРёС‚Рµ РІРІРѕРґ!" << endl;
 	} while (minArrayNumber >= maxArrayNumber);
 
-	//Заполнение (инициализация) массива случайными числами в заданном диапазоне 
+	//Р—Р°РїРѕР»РЅРµРЅРёРµ (РёРЅРёС†РёР°Р»РёР·Р°С†РёСЏ) РјР°СЃСЃРёРІР° СЃР»СѓС‡Р°Р№РЅС‹РјРё С‡РёСЃР»Р°РјРё РІ Р·Р°РґР°РЅРЅРѕРј РґРёР°РїР°Р·РѕРЅРµ 
 	for (int i = 0; i < ARRAY_SIZE; i++) array[i] = rand() % (maxArrayNumber - minArrayNumber) + minArrayNumber;
 
-	//Вывод заполненного массива на экран
-	cout << "\n" << "Полученный массив: " << TAB;
+	//Р’С‹РІРѕРґ Р·Р°РїРѕР»РЅРµРЅРЅРѕРіРѕ РјР°СЃСЃРёРІР° РЅР° СЌРєСЂР°РЅ
+	cout << "\n" << "РџРѕР»СѓС‡РµРЅРЅС‹Р№ РјР°СЃСЃРёРІ: " << TAB;
 	for (int i = 0; i < ARRAY_SIZE; i++) cout << array[i] << TAB;
 	cout << endl;
 
-	//Сортировка заполненного массива
+	//РЎРѕСЂС‚РёСЂРѕРІРєР° Р·Р°РїРѕР»РЅРµРЅРЅРѕРіРѕ РјР°СЃСЃРёРІР°
 	for (int i = 0; i < ARRAY_SIZE; i++)
 	{
 		for (int j = i + 1; j < ARRAY_SIZE; j++)
@@ -49,8 +49,8 @@ void main()
 		}
 	}
 
-	//Вывод отсортированоого массива
-	cout << "\n" << "Cортированный массив: " << TAB;
+	//Р’С‹РІРѕРґ РѕС‚СЃРѕСЂС‚РёСЂРѕРІР°РЅРѕРѕРіРѕ РјР°СЃСЃРёРІР°
+	cout << "\n" << "CРѕСЂС‚РёСЂРѕРІР°РЅРЅС‹Р№ РјР°СЃСЃРёРІ: " << TAB;
 	for (int i = 0; i < ARRAY_SIZE; i++) cout << array[i] << TAB;
 	cout << endl;
 #endif // HOME_WORK_18
