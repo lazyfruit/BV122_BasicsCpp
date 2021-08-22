@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.31424.327
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Project7Geometry", "ProjectGeometry\ProjectGeometry.vcxproj", "{EB1C469B-C067-45AA-A369-E0C3E2ACDD7C}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ProjectArrays", "ProjectArrays\ProjectArrays.vcxproj", "{C7453EFB-DD7B-43FF-A8EB-9290F8980B79}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Project8Arrays", "ProjectArrays\ProjectArrays.vcxproj", "{C7453EFB-DD7B-43FF-A8EB-9290F8980B79}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Project5DoWhile", "ProjectDoWhile\ProjectDoWhile.vcxproj", "{75A5D8DD-122C-4A5E-BCA0-03558CEA9F04}"
 EndProject
@@ -37,11 +37,13 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ProjectzFunctionArrays3", "
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ProjectzFunctionArrays2z2", "ProjectFunctionArrays2z2\ProjectFunctionArrays2z2.vcxproj", "{7B4F2461-5FEA-4A71-9A79-2B5B4554EF5C}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ProjectNumerix", "ProjectNumerix\ProjectNumerix.vcxproj", "{7586BF0E-7D1F-4EA1-8DDE-06D0A755F080}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Project9Numerix", "ProjectNumerix\ProjectNumerix.vcxproj", "{7586BF0E-7D1F-4EA1-8DDE-06D0A755F080}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ProjectzRecursion", "ProjectzRecursion\ProjectzRecursion.vcxproj", "{34654C98-5138-495F-A047-5C1785B5343E}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Project3Operators", "Project3Operators\Project3Operators.vcxproj", "{05424FAB-16CF-42C9-94FD-9ED519266139}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Project9z1NumericHomeWork", "Project10NumericHomeWork\Project10NumericHomeWork.vcxproj", "{92E0D64E-767A-4519-B5C8-E7D92AA1824E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -211,6 +213,14 @@ Global
 		{05424FAB-16CF-42C9-94FD-9ED519266139}.Release|x64.Build.0 = Release|x64
 		{05424FAB-16CF-42C9-94FD-9ED519266139}.Release|x86.ActiveCfg = Release|Win32
 		{05424FAB-16CF-42C9-94FD-9ED519266139}.Release|x86.Build.0 = Release|Win32
+		{92E0D64E-767A-4519-B5C8-E7D92AA1824E}.Debug|x64.ActiveCfg = Debug|x64
+		{92E0D64E-767A-4519-B5C8-E7D92AA1824E}.Debug|x64.Build.0 = Debug|x64
+		{92E0D64E-767A-4519-B5C8-E7D92AA1824E}.Debug|x86.ActiveCfg = Debug|Win32
+		{92E0D64E-767A-4519-B5C8-E7D92AA1824E}.Debug|x86.Build.0 = Debug|Win32
+		{92E0D64E-767A-4519-B5C8-E7D92AA1824E}.Release|x64.ActiveCfg = Release|x64
+		{92E0D64E-767A-4519-B5C8-E7D92AA1824E}.Release|x64.Build.0 = Release|x64
+		{92E0D64E-767A-4519-B5C8-E7D92AA1824E}.Release|x86.ActiveCfg = Release|Win32
+		{92E0D64E-767A-4519-B5C8-E7D92AA1824E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
