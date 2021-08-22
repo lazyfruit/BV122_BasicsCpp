@@ -1,11 +1,11 @@
-#include<iostream>
+п»ї#include<iostream>
 using namespace std;
 
 void elevator(int floor)
 {
-	if (floor == 0) //Условие выхода из рекурсии
+	if (floor == 0) //РЈСЃР»РѕРІРёРµ РІС‹С…РѕРґР° РёР· СЂРµРєСѓСЂСЃРёРё
 	{
-		//cout << "Вы в подвале" << endl;
+		//cout << "Р’С‹ РІ РїРѕРґРІР°Р»Рµ" << endl;
 		cout << floor << endl;
 		return;
 	}
@@ -21,6 +21,6 @@ void main()
 	main();*/
 
 	int floor;
-	cout << "Введите номер этажа: "; cin >> floor;
+	cout << "Р’РІРµРґРёС‚Рµ РЅРѕРјРµСЂ СЌС‚Р°Р¶Р°: "; cin >> floor;
 	elevator(floor);
 }

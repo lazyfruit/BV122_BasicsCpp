@@ -1,4 +1,4 @@
-#include<iostream>
+ï»¿#include<iostream>
 using namespace std;
 
 #define delimiter "\n--------------------------------------\n"
@@ -42,10 +42,10 @@ void main()
 	Print(arr, n);
 	Sort(arr, n);
 	Print(arr, n);
-	cout << "Ñóììà ýëåìåíòîâ ìàññèâà: " << Sum(arr, n) << endl;
-	cout << "Ñðåäíåå àðèôìåòè÷åñêîå ýëåìåíòîâ ìàññèâà: " << Avg(arr, n) << endl;
-	cout << "Ìèíèìàëüíîå çíà÷åíèå â ìàññèâå: " << minValueIn(arr, n) << endl;
-	cout << "Ìàêñèìàëüíîå çíà÷åíèå â ìàññèâå: " << maxValueIn(arr, n) << endl;
+	cout << "Ð¡ÑƒÐ¼Ð¼Ð° ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð¾Ð² Ð¼Ð°ÑÑÐ¸Ð²Ð°: " << Sum(arr, n) << endl;
+	cout << "Ð¡Ñ€ÐµÐ´Ð½ÐµÐµ Ð°Ñ€Ð¸Ñ„Ð¼ÐµÑ‚Ð¸Ñ‡ÐµÑÐºÐ¾Ðµ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð¾Ð² Ð¼Ð°ÑÑÐ¸Ð²Ð°: " << Avg(arr, n) << endl;
+	cout << "ÐœÐ¸Ð½Ð¸Ð¼Ð°Ð»ÑŒÐ½Ð¾Ðµ Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ Ð² Ð¼Ð°ÑÑÐ¸Ð²Ðµ: " << minValueIn(arr, n) << endl;
+	cout << "ÐœÐ°ÐºÑÐ¸Ð¼Ð°Ð»ÑŒÐ½Ð¾Ðµ Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ Ð² Ð¼Ð°ÑÑÐ¸Ð²Ðµ: " << maxValueIn(arr, n) << endl;
 
 	cout << delimiter << endl;
 
@@ -58,10 +58,10 @@ void main()
 	Print(brr, B_SIZE);
 	//Sort(brr, B_SIZE);
 	Print(brr, B_SIZE);
-	cout << "Ñóììà ýëåìåíòîâ ìàññèâà: " << Sum(brr, B_SIZE) << endl;
-	cout << "Ñðåäíåå àðèôìåòè÷åñêîå ýëåìåíòîâ ìàññèâà: " << Avg(brr, B_SIZE) << endl;
-	cout << "Ìèíèìàëüíîå çíà÷åíèå â ìàññèâå: " << minValueIn(brr, B_SIZE) << endl;
-	cout << "Ìàêñèìàëüíîå çíà÷åíèå â ìàññèâå: " << maxValueIn(brr, B_SIZE) << endl;
+	cout << "Ð¡ÑƒÐ¼Ð¼Ð° ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð¾Ð² Ð¼Ð°ÑÑÐ¸Ð²Ð°: " << Sum(brr, B_SIZE) << endl;
+	cout << "Ð¡Ñ€ÐµÐ´Ð½ÐµÐµ Ð°Ñ€Ð¸Ñ„Ð¼ÐµÑ‚Ð¸Ñ‡ÐµÑÐºÐ¾Ðµ ÑÐ»ÐµÐ¼ÐµÐ½Ñ‚Ð¾Ð² Ð¼Ð°ÑÑÐ¸Ð²Ð°: " << Avg(brr, B_SIZE) << endl;
+	cout << "ÐœÐ¸Ð½Ð¸Ð¼Ð°Ð»ÑŒÐ½Ð¾Ðµ Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ Ð² Ð¼Ð°ÑÑÐ¸Ð²Ðµ: " << minValueIn(brr, B_SIZE) << endl;
+	cout << "ÐœÐ°ÐºÑÐ¸Ð¼Ð°Ð»ÑŒÐ½Ð¾Ðµ Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ðµ Ð² Ð¼Ð°ÑÑÐ¸Ð²Ðµ: " << maxValueIn(brr, B_SIZE) << endl;
 
 	///////////////////////////////////////////////////////////////  
 #endif // HOME_WORK
@@ -73,7 +73,7 @@ void main()
 
 void FillRand(int arr[], const int n)
 {
-	//Çàïîëíåíèå ìàññèâà ñëó÷àéíûìè ÷èñëàìè:
+	//Ð—Ð°Ð¿Ð¾Ð»Ð½ÐµÐ½Ð¸Ðµ Ð¼Ð°ÑÑÐ¸Ð²Ð° ÑÐ»ÑƒÑ‡Ð°Ð¹Ð½Ñ‹Ð¼Ð¸ Ñ‡Ð¸ÑÐ»Ð°Ð¼Ð¸:
 	for (int i = 0; i < n; i++)
 	{
 		arr[i] = rand() % 100;
@@ -81,7 +81,7 @@ void FillRand(int arr[], const int n)
 }
 void FillRand(double arr[], const int n)
 {
-	//Çàïîëíåíèå ìàññèâà ñëó÷àéíûìè ÷èñëàìè:
+	//Ð—Ð°Ð¿Ð¾Ð»Ð½ÐµÐ½Ð¸Ðµ Ð¼Ð°ÑÑÐ¸Ð²Ð° ÑÐ»ÑƒÑ‡Ð°Ð¹Ð½Ñ‹Ð¼Ð¸ Ñ‡Ð¸ÑÐ»Ð°Ð¼Ð¸:
 	for (int i = 0; i < n; i++)
 	{
 		arr[i] = double(rand() % 10000) / 100;
@@ -89,7 +89,7 @@ void FillRand(double arr[], const int n)
 }
 void FillRand(int arr[ROWS][COLS], const int ROWS, const int COLS)
 {
-	//Çàïîëíåíèå ìàññèâà ñëó÷àéíûìè ÷èñëàìè:
+	//Ð—Ð°Ð¿Ð¾Ð»Ð½ÐµÐ½Ð¸Ðµ Ð¼Ð°ÑÑÐ¸Ð²Ð° ÑÐ»ÑƒÑ‡Ð°Ð¹Ð½Ñ‹Ð¼Ð¸ Ñ‡Ð¸ÑÐ»Ð°Ð¼Ð¸:
 	for (int i = 0; i < ROWS; i++)
 	{
 		for (int j = 0; j < COLS; j++)
@@ -101,7 +101,7 @@ void FillRand(int arr[ROWS][COLS], const int ROWS, const int COLS)
 
 void Print(int arr[], const int n)
 {
-	//Âûâîä ìàññèâà íà ýêðàí:
+	//Ð’Ñ‹Ð²Ð¾Ð´ Ð¼Ð°ÑÑÐ¸Ð²Ð° Ð½Ð° ÑÐºÑ€Ð°Ð½:
 	for (int i = 0; i < n; i++)
 	{
 		cout << arr[i] << "\t";
@@ -110,7 +110,7 @@ void Print(int arr[], const int n)
 }
 void Print(double arr[], const int n)
 {
-	//Âûâîä ìàññèâà íà ýêðàí:
+	//Ð’Ñ‹Ð²Ð¾Ð´ Ð¼Ð°ÑÑÐ¸Ð²Ð° Ð½Ð° ÑÐºÑ€Ð°Ð½:
 	for (int i = 0; i < n; i++)
 	{
 		cout << arr[i] << "\t";
@@ -119,7 +119,7 @@ void Print(double arr[], const int n)
 }
 void Print(int arr[ROWS][COLS], const int ROWS, const int COLS)
 {
-	//Çàïîëíåíèå ìàññèâà ñëó÷àéíûìè ÷èñëàìè:
+	//Ð—Ð°Ð¿Ð¾Ð»Ð½ÐµÐ½Ð¸Ðµ Ð¼Ð°ÑÑÐ¸Ð²Ð° ÑÐ»ÑƒÑ‡Ð°Ð¹Ð½Ñ‹Ð¼Ð¸ Ñ‡Ð¸ÑÐ»Ð°Ð¼Ð¸:
 	for (int i = 0; i < ROWS; i++)
 	{
 		for (int j = 0; j < COLS; j++)
@@ -132,7 +132,7 @@ void Print(int arr[ROWS][COLS], const int ROWS, const int COLS)
 
 void Sort(int arr[], const int n)
 {
-	//Ñîðòèðîâêà:
+	//Ð¡Ð¾Ñ€Ñ‚Ð¸Ñ€Ð¾Ð²ÐºÐ°:
 	for (int i = 0; i < n; i++)
 	{
 		for (int j = i + 1; j < n; j++)
