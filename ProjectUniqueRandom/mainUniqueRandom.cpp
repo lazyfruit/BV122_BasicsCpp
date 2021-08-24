@@ -1,7 +1,7 @@
 ﻿#include<iostream>
 using namespace std;
 
-#define tab "\t"
+#define TAB "\t"
 
 void main()
 {
@@ -30,7 +30,7 @@ void main()
 	//Вывод на экран:
 	for (int i = 0; i < n; i++)
 	{
-		cout << arr[i] << tab;
+		cout << arr[i] << TAB;
 	}
 	cout << endl;
 }

@@ -1,7 +1,7 @@
 ﻿#include<iostream>
 using namespace std;
 
-# define tab "\t"
+# define TAB "\t"
 
 void main()
 {
@@ -13,7 +13,7 @@ void main()
 		i < n;
 		i++)
 	{
-		cout << i << tab;
+		cout << i << TAB;
 	}
 	cout << endl;
 

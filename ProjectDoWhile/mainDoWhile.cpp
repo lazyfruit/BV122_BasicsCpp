@@ -2,7 +2,7 @@
 #include<conio.h>
 using namespace std;
 
-#define tab "\t"
+#define TAB "\t"
 #define Escape 27
 
 void main()
@@ -13,6 +13,6 @@ void main()
 	do
 	{
 		key = _getch();
-		cout << (int)key << tab << key << endl;
+		cout << (int)key << TAB << key << endl;
 	} while (key != 27);
 }
