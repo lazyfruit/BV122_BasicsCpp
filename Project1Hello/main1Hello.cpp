@@ -10,12 +10,7 @@ void main()
 								 Возможно писать Rus или оставлять авычки пустыми.
 	/*cout << "\n\tHello\"World\"\n";
 	cout << "\nПриветМир\n";
-	cout << "\nС:\\Windows\\System32\\drivers\\\n";
-
-	int i = 3;
-	i += i++ + 1 + (++i *= 2);
-	cout << i << endl;*/
-
+	cout << "\nС:\\Windows\\System32\\drivers\\\n";*/
 }
 
 // ctrl + f7 - Компиляция

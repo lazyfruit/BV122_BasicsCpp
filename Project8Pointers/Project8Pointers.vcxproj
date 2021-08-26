@@ -21,10 +21,9 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>16.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{062d7487-9db3-4d4a-bffb-1fca0911312c}</ProjectGuid>
-    <RootNamespace>ProjectFunctionArrays2</RootNamespace>
+    <ProjectGuid>{4f2aabe5-ed16-48ef-8335-5e76c7f6ac77}</ProjectGuid>
+    <RootNamespace>Project8Pointers</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
-    <ProjectName>Project6z2FunctionArrays2</ProjectName>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
@@ -140,7 +139,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="mainFunctionArrays2.cpp" />
+    <ClCompile Include="mainPointer.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
