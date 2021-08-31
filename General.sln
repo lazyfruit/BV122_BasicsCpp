@@ -23,23 +23,23 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Project5z7Arrays2D", "Proje
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Project1Hello", "Project1Hello\Project1Hello.vcxproj", "{F7C1CA90-F913-45AA-A7B1-E7C1A7932972}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Projectz6Function", "ProjectFunction\ProjectFunction.vcxproj", "{432A3E1B-E609-48F7-841A-963A0E8E241B}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Project6Function", "ProjectFunction\ProjectFunction.vcxproj", "{432A3E1B-E609-48F7-841A-963A0E8E241B}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Projectz6z1FunctionArrays1", "ProjectFunctionArrays\ProjectFunctionArrays.vcxproj", "{C3526B76-E544-4D26-A93C-A5F807948867}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Project6z1FunctionArrays1", "ProjectFunctionArrays\ProjectFunctionArrays.vcxproj", "{C3526B76-E544-4D26-A93C-A5F807948867}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Projectz6z2FunctionArrays2", "ProjectFunctionArrays2\ProjectFunctionArrays2.vcxproj", "{062D7487-9DB3-4D4A-BFFB-1FCA0911312C}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Project6z2FunctionArrays2", "ProjectFunctionArrays2\ProjectFunctionArrays2.vcxproj", "{062D7487-9DB3-4D4A-BFFB-1FCA0911312C}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Project2DataTypes", "Project2DataTypes\Project2DataTypes.vcxproj", "{3B840D2A-7B2A-4547-B7EB-3A9E746390E3}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Project1z1HomeWorkEsc", "Project1z1HomeWorkEsc\Project1z1HomeWorkEsc.vcxproj", "{80E8436A-9C11-4CDE-81F6-7D20A4812FB6}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Projectz6z4FunctionArrays3", "ProjectFunctionArrays3\ProjectFunctionArrays3.vcxproj", "{A78A4826-4E2C-4EDF-8FF7-709C4E56547D}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Project6z4FunctionArrays3", "ProjectFunctionArrays3\ProjectFunctionArrays3.vcxproj", "{A78A4826-4E2C-4EDF-8FF7-709C4E56547D}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Projectz6z3FunctionArrays2z2", "ProjectFunctionArrays2z2\ProjectFunctionArrays2z2.vcxproj", "{7B4F2461-5FEA-4A71-9A79-2B5B4554EF5C}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Project6z3FunctionArrays2z2", "ProjectFunctionArrays2z2\ProjectFunctionArrays2z2.vcxproj", "{7B4F2461-5FEA-4A71-9A79-2B5B4554EF5C}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Project5z1Numeric", "ProjectNumerix\ProjectNumerix.vcxproj", "{7586BF0E-7D1F-4EA1-8DDE-06D0A755F080}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Projectz7Recursion", "ProjectzRecursion\ProjectzRecursion.vcxproj", "{34654C98-5138-495F-A047-5C1785B5343E}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Project7Recursion", "ProjectzRecursion\ProjectzRecursion.vcxproj", "{34654C98-5138-495F-A047-5C1785B5343E}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Project3Operators", "Project3Operators\Project3Operators.vcxproj", "{05424FAB-16CF-42C9-94FD-9ED519266139}"
 EndProject
@@ -52,6 +52,12 @@ EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Project5z8Arrays2DHomeWork", "Project5z9Arrays2DHomeWork\Project5z9Arrays2DHomeWork.vcxproj", "{68CEB4CD-AAB9-4086-B34C-7BCEF23A89C3}"
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Project8Pointers", "Project8Pointers\Project8Pointers.vcxproj", "{4F2AABE5-ED16-48EF-8335-5E76C7F6AC77}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Project8z1Parametres", "Project8z1Parametres\Project8z1Parametres.vcxproj", "{E6568A79-AC4B-4743-A247-B7AE48B8E1E0}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Project8z2References", "Project8z2References\Project8z2References.vcxproj", "{1AAAEB08-D4BA-44A6-96F1-E9445D82D00D}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Project8z3DynamicArrays", "Project8z3DynamicArrays\Project8z3DynamicArrays.vcxproj", "{DC0CEDAB-A89C-4FA8-9A43-FF0371EC993C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -261,6 +267,30 @@ Global
 		{4F2AABE5-ED16-48EF-8335-5E76C7F6AC77}.Release|x64.Build.0 = Release|x64
 		{4F2AABE5-ED16-48EF-8335-5E76C7F6AC77}.Release|x86.ActiveCfg = Release|Win32
 		{4F2AABE5-ED16-48EF-8335-5E76C7F6AC77}.Release|x86.Build.0 = Release|Win32
+		{E6568A79-AC4B-4743-A247-B7AE48B8E1E0}.Debug|x64.ActiveCfg = Debug|x64
+		{E6568A79-AC4B-4743-A247-B7AE48B8E1E0}.Debug|x64.Build.0 = Debug|x64
+		{E6568A79-AC4B-4743-A247-B7AE48B8E1E0}.Debug|x86.ActiveCfg = Debug|Win32
+		{E6568A79-AC4B-4743-A247-B7AE48B8E1E0}.Debug|x86.Build.0 = Debug|Win32
+		{E6568A79-AC4B-4743-A247-B7AE48B8E1E0}.Release|x64.ActiveCfg = Release|x64
+		{E6568A79-AC4B-4743-A247-B7AE48B8E1E0}.Release|x64.Build.0 = Release|x64
+		{E6568A79-AC4B-4743-A247-B7AE48B8E1E0}.Release|x86.ActiveCfg = Release|Win32
+		{E6568A79-AC4B-4743-A247-B7AE48B8E1E0}.Release|x86.Build.0 = Release|Win32
+		{1AAAEB08-D4BA-44A6-96F1-E9445D82D00D}.Debug|x64.ActiveCfg = Debug|x64
+		{1AAAEB08-D4BA-44A6-96F1-E9445D82D00D}.Debug|x64.Build.0 = Debug|x64
+		{1AAAEB08-D4BA-44A6-96F1-E9445D82D00D}.Debug|x86.ActiveCfg = Debug|Win32
+		{1AAAEB08-D4BA-44A6-96F1-E9445D82D00D}.Debug|x86.Build.0 = Debug|Win32
+		{1AAAEB08-D4BA-44A6-96F1-E9445D82D00D}.Release|x64.ActiveCfg = Release|x64
+		{1AAAEB08-D4BA-44A6-96F1-E9445D82D00D}.Release|x64.Build.0 = Release|x64
+		{1AAAEB08-D4BA-44A6-96F1-E9445D82D00D}.Release|x86.ActiveCfg = Release|Win32
+		{1AAAEB08-D4BA-44A6-96F1-E9445D82D00D}.Release|x86.Build.0 = Release|Win32
+		{DC0CEDAB-A89C-4FA8-9A43-FF0371EC993C}.Debug|x64.ActiveCfg = Debug|x64
+		{DC0CEDAB-A89C-4FA8-9A43-FF0371EC993C}.Debug|x64.Build.0 = Debug|x64
+		{DC0CEDAB-A89C-4FA8-9A43-FF0371EC993C}.Debug|x86.ActiveCfg = Debug|Win32
+		{DC0CEDAB-A89C-4FA8-9A43-FF0371EC993C}.Debug|x86.Build.0 = Debug|Win32
+		{DC0CEDAB-A89C-4FA8-9A43-FF0371EC993C}.Release|x64.ActiveCfg = Release|x64
+		{DC0CEDAB-A89C-4FA8-9A43-FF0371EC993C}.Release|x64.Build.0 = Release|x64
+		{DC0CEDAB-A89C-4FA8-9A43-FF0371EC993C}.Release|x86.ActiveCfg = Release|Win32
+		{DC0CEDAB-A89C-4FA8-9A43-FF0371EC993C}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
