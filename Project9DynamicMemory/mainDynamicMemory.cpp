@@ -5,6 +5,7 @@ void FillRand(int arr[], const unsigned int n);
 void Print(int arr[], const unsigned int n);
 
 int* push_back(int arr[], int& n, int value);
+int* pop_back(int arr[], int& n);
 
 void main()
 {
@@ -18,7 +19,9 @@ void main()
 	cout << "Введите добавляемое значение: "; cin >> value;
 	
 	arr = push_back(arr, n, value);
+	Print(arr, n);
 
+	arr = pop_back(arr, n);
 	Print(arr, n);
 	delete[] arr;
 }
@@ -60,4 +63,12 @@ int* push_back(int arr[], int& n, int value)
 		на 1:
 	n++;
 	return arr;
+}
+
+int* pop_back(int arr[], int& n)
+{
+	int* buffer = new int[--n];
+	for (int i = 0; i < n; i++) buffer[i] = arr[i];
+	delete[]arr;
+	return buffer;
 }
