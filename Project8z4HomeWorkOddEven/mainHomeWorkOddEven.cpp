@@ -1,4 +1,4 @@
-#include<iostream>
+ï»¿#include<iostream>
 using namespace std;
 
 #define TAB "\t"
@@ -10,7 +10,7 @@ void main()
 
 	int arraySize;
 	int countEven = 0, countOdd = 0;
-	cout << "Ââåäèòå ðàçìåð ìàññèâà: "; cin >> arraySize;
+	cout << "Ð’Ð²ÐµÐ´Ð¸Ñ‚Ðµ Ñ€Ð°Ð·Ð¼ÐµÑ€ Ð¼Ð°ÑÑÐ¸Ð²Ð°: "; cin >> arraySize;
 	int* arr = new int[arraySize] {};
 	for (int i = 0; i < arraySize; i++)
 	{
@@ -27,7 +27,7 @@ void main()
 		arr[i] % 2 == 0 ? even[countEven++] = arr[i] : odd[countOdd++] = arr[i];
 	}
 
-	cout << "Ïîëó÷åííûé ìàññèâ: " << endl;
+	cout << "ÐŸÐ¾Ð»ÑƒÑ‡ÐµÐ½Ð½Ñ‹Ð¹ Ð¼Ð°ÑÑÐ¸Ð²: " << endl;
 	for (int i = 0; i < arraySize; i++)
 	{
 		cout << arr[i] << TAB;
@@ -35,14 +35,14 @@ void main()
 	cout << "\n\n";
 	PAUSE;
 
-	cout << "\n" << "Ìàññèâ èçâëå÷åííûõ íå÷åòíûõ çíà÷åíèé: " << endl;
+	cout << "\n" << "ÐœÐ°ÑÑÐ¸Ð² Ð¸Ð·Ð²Ð»ÐµÑ‡ÐµÐ½Ð½Ñ‹Ñ… Ð½ÐµÑ‡ÐµÑ‚Ð½Ñ‹Ñ… Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ð¹: " << endl;
 	for (int i = 0; i < countOdd; i++)
 	{
 		cout << odd[i] << TAB;
 	}
 	cout << "\n\n";
 
-	cout << "Ìàññèâ èçâëå÷åííûõ ÷åòíûõ çíà÷åíèé: " << endl;
+	cout << "ÐœÐ°ÑÑÐ¸Ð² Ð¸Ð·Ð²Ð»ÐµÑ‡ÐµÐ½Ð½Ñ‹Ñ… Ñ‡ÐµÑ‚Ð½Ñ‹Ñ… Ð·Ð½Ð°Ñ‡ÐµÐ½Ð¸Ð¹: " << endl;
 	for (int i = 0; i < countEven; i++)
 	{
 		cout << even[i] << TAB;
