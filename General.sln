@@ -63,7 +63,9 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Project9DynamicMemory", "Pr
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Project8z4HomeWorkOddEven", "Project8z4HomeWorkOddEven\Project8z4HomeWorkOddEven.vcxproj", "{8F9DF889-A710-4DF7-BB91-3E1BBEE5F4A1}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ProjectDynamicMemoryTemplated", "ProjectDynamicMemoryTemplated\ProjectDynamicMemoryTemplated.vcxproj", "{27FA7A00-C319-4959-A10B-485326D5D405}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Project9z1DynamicMemoryTemplated", "ProjectDynamicMemoryTemplated\ProjectDynamicMemoryTemplated.vcxproj", "{27FA7A00-C319-4959-A10B-485326D5D405}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ProjectSeparateTemplatedDynamicMemory", "ProjectSeparateTemplatedDynamicMemory\ProjectSeparateTemplatedDynamicMemory.vcxproj", "{B9B37525-A540-4377-8EDA-A4468911E65E}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -321,6 +323,14 @@ Global
 		{27FA7A00-C319-4959-A10B-485326D5D405}.Release|x64.Build.0 = Release|x64
 		{27FA7A00-C319-4959-A10B-485326D5D405}.Release|x86.ActiveCfg = Release|Win32
 		{27FA7A00-C319-4959-A10B-485326D5D405}.Release|x86.Build.0 = Release|Win32
+		{B9B37525-A540-4377-8EDA-A4468911E65E}.Debug|x64.ActiveCfg = Debug|x64
+		{B9B37525-A540-4377-8EDA-A4468911E65E}.Debug|x64.Build.0 = Debug|x64
+		{B9B37525-A540-4377-8EDA-A4468911E65E}.Debug|x86.ActiveCfg = Debug|Win32
+		{B9B37525-A540-4377-8EDA-A4468911E65E}.Debug|x86.Build.0 = Debug|Win32
+		{B9B37525-A540-4377-8EDA-A4468911E65E}.Release|x64.ActiveCfg = Release|x64
+		{B9B37525-A540-4377-8EDA-A4468911E65E}.Release|x64.Build.0 = Release|x64
+		{B9B37525-A540-4377-8EDA-A4468911E65E}.Release|x86.ActiveCfg = Release|Win32
+		{B9B37525-A540-4377-8EDA-A4468911E65E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
