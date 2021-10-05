@@ -528,6 +528,7 @@ void insert_col(int** arr, unsigned int& rows, unsigned int& cols, unsigned int 
 }
 void erase_col(int**& arr, unsigned int& rows, unsigned int& cols, unsigned int erase_row_index)
 {
+
 	for (int i = 0; i < rows; i++)
 	{
 		int* buffer = new int[cols - 1];
