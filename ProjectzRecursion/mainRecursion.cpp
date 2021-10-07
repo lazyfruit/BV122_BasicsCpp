@@ -43,7 +43,6 @@ void main()
 	cout << endl;
 #endif // FIBONACCI
 }
-
 void Elevator(int floor)
 {
 	if (floor == 0)
@@ -55,14 +54,12 @@ void Elevator(int floor)
 	Elevator(floor - 1);
 	cout << floor << endl;
 }
-
 int Factorial(int n)
 {
 	if (n == 0)return 1;
 	int f = n * Factorial(n - 1);
 	return f;
 }
-
 double Power(int a, int n)
 {
 	if (n == 0) return 1;
@@ -74,7 +71,6 @@ double Power(int a, int n)
 	//Вариант записи №2
 	//return n == 0 ? 1 : n > 0 ? a * Power(a, n - 1) : 1. / a * Power(a, n + 1);
 }
-
 void Fibonacci(int n/*, int a, int b*/)
 {
 	static int a = 0, b = 1, c = 1;
